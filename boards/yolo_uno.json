@@ -1,0 +1,38 @@
+{
+    "build": {
+      "arduino": {
+        "ldscript": "esp32s3_out.ld"
+      },
+      "core": "esp32",
+      "extra_flags": "-DARDUINO_ESP32S3_DEV",
+      "f_cpu": "240000000L",
+      "f_flash": "80000000L",
+      "flash_mode": "dio",
+      "mcu": "esp32s3",
+      "variant": "esp32s3"
+    },
+    "connectivity": [
+      "wifi",
+      "bluetooth"
+    ],
+    "debug": {
+      "default_tool": "esp-builtin",
+      "openocd_board": "esp32s3-builtin.cfg"
+    },
+    "frameworks": [
+      "arduino",
+      "espidf"
+    ],
+    "name": "ESP32-S3 with 8MB Flash",
+    "upload": {
+      "flash_size": "8MB",
+      "maximum_ram_size": 327680,
+      "maximum_size": 8388608,
+      "protocol": "esptool",
+      "require_upload_port": true,
+      "speed": 460800
+    },
+    "url": "https://www.espressif.com/en/products/socs/esp32s3",
+    "vendor": "Espressif"
+  }
+  
