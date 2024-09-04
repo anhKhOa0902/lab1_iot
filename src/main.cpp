@@ -8,8 +8,12 @@
 #include "freertos/task.h"
 
 // Replace with your network credentials
+// const char* ssid = PROJECT_WIFI_SSID;
+// const char* password = PROJECT_WIFI_PASSWORD;
+
 const char* ssid = PROJECT_WIFI_SSID;
 const char* password = PROJECT_WIFI_PASSWORD;
+
 
 // Set LED GPIO
 const int ledPin = 2;
