@@ -16,7 +16,7 @@ const char* password = PROJECT_WIFI_PASSWORD;
 
 
 // Set LED GPIO
-const int ledPin = 2;
+const int ledPin = 13;
 // Stores LED state
 String ledState;
 
