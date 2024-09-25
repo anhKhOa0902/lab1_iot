@@ -40,7 +40,8 @@
     "maximum_ram_size": 327680,
     "maximum_size": 8388608,
     "require_upload_port": true,
-    "speed": 460800
+    "speed": 115200
+             
   },
   "url": "https://www.espressif.com/en/products/socs/esp32s3",
   "vendor": "Espressif"
