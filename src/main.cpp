@@ -11,8 +11,8 @@
 // const char* ssid = PROJECT_WIFI_SSID;
 // const char* password = PROJECT_WIFI_PASSWORD;
 
-const char* ssid = PROJECT_WIFI_SSID;
-const char* password = PROJECT_WIFI_PASSWORD;
+const char* ssid = "ACLAB-IOT";
+const char* password = "12345678";
 
 
 // Set LED GPIO
